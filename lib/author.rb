@@ -8,10 +8,13 @@ class Author
     @posts = []
   end
   
+<<<<<<< HEAD
   def self.post_count
     @@post_count
   end
   
+=======
+>>>>>>> 231a75b5442d08e84ae23a54e50029fdd19db71f
   def posts
     @posts
   end
@@ -29,6 +32,9 @@ class Author
     @@post_count +=1
   end
   
+<<<<<<< HEAD
   
+=======
+>>>>>>> 231a75b5442d08e84ae23a54e50029fdd19db71f
  
 end
